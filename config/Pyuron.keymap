@@ -68,10 +68,10 @@
 
         mouse {
             bindings = <
-&kp ESCAPE  &kp TAB   &kp UP_ARROW    &trans           &trans   &kp ESCAPE  &kp TAB   &trans    &kp LA(F4)  &kp LC(W)
-&kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &mkp MB4    &mkp MB1  &mkp MB2  &mkp MB5    &kp LS(LC(D))
-&trans      &trans    &trans          &trans           &trans   &trans      &trans    &trans    &trans      &trans
-&trans      &trans    &trans          &trans           &trans   &trans      &trans    &trans    &trans      &kp SPACE
+&kp ESCAPE  &kp TAB   &kp UP_ARROW    &trans           &trans   &kp ESCAPE        &kp TAB            &trans    &kp LA(F4)  &kp LC(W)
+&kp HOME    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp END  &mkp MB4          &mkp MB1           &mkp MB2  &mkp MB5    &kp LS(LC(D))
+&trans      &trans    &trans          &trans           &trans   &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &trans    &trans      &trans
+&trans      &trans    &kp SPACE       &trans           &trans   &trans            &trans             &trans    &trans      &kp SPACE
             >;
         };
 
